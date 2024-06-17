@@ -19,6 +19,8 @@
 		B6C348132C207C0B00561669 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B6C348152C207C1A00561669 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B6C348182C207C1A00561669 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B6C3481F2C207D1500561669 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
+		B6C348202C207E6400561669 /* Crypto-Coin-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Crypto-Coin-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +53,10 @@
 		B6C348102C207C0B00561669 /* Crypto Coin */ = {
 			isa = PBXGroup;
 			children = (
+				B6C348202C207E6400561669 /* Crypto-Coin-Info.plist */,
 				B6C348112C207C0B00561669 /* Crypto_CoinApp.swift */,
 				B6C348132C207C0B00561669 /* ContentView.swift */,
+				B6C3481F2C207D1500561669 /* Config.xcconfig */,
 				B6C348152C207C1A00561669 /* Assets.xcassets */,
 				B6C348172C207C1A00561669 /* Preview Content */,
 			);
@@ -147,6 +151,7 @@
 /* Begin XCBuildConfiguration section */
 		B6C3481A2C207C1A00561669 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6C3481F2C207D1500561669 /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -210,6 +215,7 @@
 		};
 		B6C3481B2C207C1A00561669 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6C3481F2C207D1500561669 /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -275,6 +281,7 @@
 				DEVELOPMENT_TEAM = M85NJXLM4F;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Crypto-Coin-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +311,7 @@
 				DEVELOPMENT_TEAM = M85NJXLM4F;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Crypto-Coin-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
