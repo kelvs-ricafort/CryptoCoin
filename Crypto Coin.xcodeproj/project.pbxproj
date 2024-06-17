@@ -7,18 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B6C348122C207C0B00561669 /* Crypto_CoinApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C348112C207C0B00561669 /* Crypto_CoinApp.swift */; };
+		B6C348122C207C0B00561669 /* Crypto_Coin.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C348112C207C0B00561669 /* Crypto_Coin.swift */; };
 		B6C348142C207C0B00561669 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C348132C207C0B00561669 /* ContentView.swift */; };
 		B6C348162C207C1A00561669 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6C348152C207C1A00561669 /* Assets.xcassets */; };
 		B6C348192C207C1A00561669 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6C348182C207C1A00561669 /* Preview Assets.xcassets */; };
 		B6C348232C2083EF00561669 /* Coin.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C348222C2083EF00561669 /* Coin.swift */; };
 		B6C348262C20846300561669 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C348252C20846300561669 /* ViewModel.swift */; };
 		B6C348292C20863F00561669 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C348282C20863F00561669 /* DataService.swift */; };
+		B6C3482B2C208BB000561669 /* CoinDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C3482A2C208BB000561669 /* CoinDetailsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B6C3480E2C207C0B00561669 /* Crypto Coin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Crypto Coin.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B6C348112C207C0B00561669 /* Crypto_CoinApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crypto_CoinApp.swift; sourceTree = "<group>"; };
+		B6C348112C207C0B00561669 /* Crypto_Coin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crypto_Coin.swift; sourceTree = "<group>"; };
 		B6C348132C207C0B00561669 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B6C348152C207C1A00561669 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B6C348182C207C1A00561669 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -27,6 +28,7 @@
 		B6C348222C2083EF00561669 /* Coin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coin.swift; sourceTree = "<group>"; };
 		B6C348252C20846300561669 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		B6C348282C20863F00561669 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		B6C3482A2C208BB000561669 /* CoinDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinDetailsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +62,9 @@
 			isa = PBXGroup;
 			children = (
 				B6C348202C207E6400561669 /* Crypto-Coin-Info.plist */,
-				B6C348112C207C0B00561669 /* Crypto_CoinApp.swift */,
+				B6C348112C207C0B00561669 /* Crypto_Coin.swift */,
 				B6C348132C207C0B00561669 /* ContentView.swift */,
+				B6C3482A2C208BB000561669 /* CoinDetailsView.swift */,
 				B6C3481F2C207D1500561669 /* Config.xcconfig */,
 				B6C348212C2083D500561669 /* Model */,
 				B6C348242C20843F00561669 /* ViewModel */,
@@ -177,7 +180,8 @@
 				B6C348232C2083EF00561669 /* Coin.swift in Sources */,
 				B6C348142C207C0B00561669 /* ContentView.swift in Sources */,
 				B6C348262C20846300561669 /* ViewModel.swift in Sources */,
-				B6C348122C207C0B00561669 /* Crypto_CoinApp.swift in Sources */,
+				B6C348122C207C0B00561669 /* Crypto_Coin.swift in Sources */,
+				B6C3482B2C208BB000561669 /* CoinDetailsView.swift in Sources */,
 				B6C348292C20863F00561669 /* DataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
