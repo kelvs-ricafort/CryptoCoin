@@ -11,6 +11,8 @@
 		B6C348142C207C0B00561669 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C348132C207C0B00561669 /* ContentView.swift */; };
 		B6C348162C207C1A00561669 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6C348152C207C1A00561669 /* Assets.xcassets */; };
 		B6C348192C207C1A00561669 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6C348182C207C1A00561669 /* Preview Assets.xcassets */; };
+		B6C348232C2083EF00561669 /* Coin.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C348222C2083EF00561669 /* Coin.swift */; };
+		B6C348262C20846300561669 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C348252C20846300561669 /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		B6C348182C207C1A00561669 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B6C3481F2C207D1500561669 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
 		B6C348202C207E6400561669 /* Crypto-Coin-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Crypto-Coin-Info.plist"; sourceTree = SOURCE_ROOT; };
+		B6C348222C2083EF00561669 /* Coin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coin.swift; sourceTree = "<group>"; };
+		B6C348252C20846300561669 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 				B6C348202C207E6400561669 /* Crypto-Coin-Info.plist */,
 				B6C348112C207C0B00561669 /* Crypto_CoinApp.swift */,
 				B6C348132C207C0B00561669 /* ContentView.swift */,
+				B6C348212C2083D500561669 /* Model */,
+				B6C348242C20843F00561669 /* ViewModel */,
 				B6C3481F2C207D1500561669 /* Config.xcconfig */,
 				B6C348152C207C1A00561669 /* Assets.xcassets */,
 				B6C348172C207C1A00561669 /* Preview Content */,
@@ -69,6 +75,22 @@
 				B6C348182C207C1A00561669 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B6C348212C2083D500561669 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B6C348222C2083EF00561669 /* Coin.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B6C348242C20843F00561669 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B6C348252C20846300561669 /* ViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,7 +163,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6C348232C2083EF00561669 /* Coin.swift in Sources */,
 				B6C348142C207C0B00561669 /* ContentView.swift in Sources */,
+				B6C348262C20846300561669 /* ViewModel.swift in Sources */,
 				B6C348122C207C0B00561669 /* Crypto_CoinApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
